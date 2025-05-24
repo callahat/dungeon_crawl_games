@@ -7,7 +7,19 @@ https://github.com/callahat/dungeon_crawl
 
 ### Games
 
+To verify the basic export matches the linted and spaced one, check via `irb`. For example:
+
+```ruby
+require 'json'
+
+a = JSON.parse(File.read('Mainline_export.json'))
+b = JSON.parse(File.read('Mainline_export_linted.json'))
+a == b
+=> true # if they are equivalent
+```
+
 ### Mainline_export.json
+
 The main first game that uses all (or nearly all) of the supported features. Including
 scripting commands, dungeon and level environmental state settings, gameover mechanics
 and score keeping.
