@@ -10272,156 +10272,20 @@
     }
   },
   "tiles": {
-    "BGGohOpjMZj3JGVmDOD90tdPBIo=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "╡",
-      "color": null,
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "071sJ4au3fJfbLhTDnBlU4Goty4=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": ".",
-      "color": "#FFC",
-      "name": "Floor",
-      "script": "",
-      "state": {
-        "blocking": false
-      },
-      "tile_template_id": "tmp_tt_id_0"
-    },
-    "677yBsEtYKz4bw+HXVn7ZPK4yUg=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "╨",
-      "color": "#271",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "HvYQ+bO0ALzHFFQ6YcnhvApKsVc=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "r",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "qP0Nkitv7XURQbuYTtaEi+Z8G14=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "╡",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "53oPgkCYZ2lGJOZEZoMuu5DASuc=": {
+    "haP3eeST+Y4ADaeX7VwwERfjXGw=": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
       "background_color": "#CCC",
-      "character": "i",
+      "character": "╔",
       "color": "#000",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "+QJfspqfgd7vjeS7jZJorjRfZIg=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#00F",
-      "character": " ",
-      "color": "#A00",
-      "name": "Rock",
+      "name": "line-point",
       "script": "",
       "state": {
         "blocking": true
       },
-      "tile_template_id": "tmp_tt_id_1"
-    },
-    "XhZzVP7e1YL5yc+syT6xsp4lNTc=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": false,
-      "background_color": null,
-      "character": "ɹ",
-      "color": "darkgray",
-      "name": "sicle",
-      "script": "#end\n:touch\n#if ! ?sender@player, done\nYou pick up the sicle\n#equip tmp_item_id_2, ?sender\n#die\n:done",
-      "state": {},
-      "tile_template_id": "tmp_tt_id_7"
-    },
-    "Fr0vXw30tFtHJ65cuvvaKAujbJk=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "green",
-      "character": "≡",
-      "color": "black",
-      "name": "Passage",
-      "script": "#PASSAGE @background_color\n#END\n:TOUCH\n#TRANSPORT ?sender, @to_level, @background_color\n",
-      "state": {
-        "to_level": 2
-      },
-      "tile_template_id": null
-    },
-    "QGWU2IjDUkq7elskj7ipTDImyZY=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "k",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
       "tile_template_id": null
     },
     "Hh2RsvEeCQGPYuz4rDbaFmWi/Lk=": {
@@ -10440,47 +10304,15 @@
       },
       "tile_template_id": "tmp_tt_id_0"
     },
-    "n4BRgQ5x1XaR7ebF58uQOQUvV4E=": {
+    "NaJT2fVRyIkc2SYrY4WT77uwO/s=": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
-      "background_color": "#FFF",
-      "character": "╬",
-      "color": "#000",
-      "name": "Floor",
-      "script": "#end\n:touch\nThe gates to town are closed.\nMaybe they will be opened later.",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "6MCBhzb44OoAtcYMXyoeFNDCpjc=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#CCC",
-      "character": "╗",
-      "color": "#000",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "6VpI01P+k58XcKMroS5c5PxHAUU=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#CCC",
-      "character": "═",
-      "color": "#000",
+      "background_color": "#000",
+      "character": "╚",
+      "color": "#FFF",
       "name": "line-point",
       "script": "",
       "state": {
@@ -10504,166 +10336,23 @@
       },
       "tile_template_id": null
     },
-    "mrqOX/xndlOZ6AX7tE+yj0xlLyY=": {
+    "molUjcCaoJ2flTbFMaP4Fb4JM/M=": {
       "animate_background_colors": null,
-      "animate_characters": null,
+      "animate_characters": "░, ▒, ░, ",
       "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "║",
-      "color": "#FFF",
-      "name": "line-point",
+      "animate_period": 5,
+      "animate_random": false,
+      "background_color": "blue",
+      "character": "░",
+      "color": "white",
+      "name": "Water",
       "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "LBKn539kKpSTsvb6JO8e6AETFUI=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "green",
-      "character": "≡",
-      "color": "black",
-      "name": "Passage",
-      "script": "#PASSAGE @background_color\n#END\n:TOUCH\n#TRANSPORT ?sender, @to_level, @background_color\n",
       "state": {
         "blocking": true,
-        "to_level": 3
+        "low": true,
+        "soft": true
       },
-      "tile_template_id": null
-    },
-    "TrKckmbwqnabXT0viX02bd0VFtk=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#A00",
-      "character": " ",
-      "color": "#A00",
-      "name": "Rock",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": "tmp_tt_id_1"
-    },
-    "ljAM+yKH6FeCvk3AKcMniQ3mx9I=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": ".",
-      "color": "#271",
-      "name": "Floor",
-      "script": "",
-      "state": {
-        "blocking": false
-      },
-      "tile_template_id": "tmp_tt_id_0"
-    },
-    "AvfGVwl2Lq7XwEu+rZM1ypyCHPs=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "╔",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "Tcw1akB2xm1lN9Wcfm+FrHOQ1zA=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "╝",
-      "color": null,
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "BaESYUOB088Yn3KPrIxyglVf9Ks=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "║",
-      "color": null,
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "hlgSTbyacFPC0O3ujJiG7MqJB1A=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#FFF",
-      "character": " ",
-      "color": null,
-      "name": "Rock",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": "tmp_tt_id_1"
-    },
-    "bk76hJNb7Xn8cLd5a1Enj2UdlNY=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "╗",
-      "color": null,
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "fSLFFITuuBTOBM0xrFZ1tt6C0Y8=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "║",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
+      "tile_template_id": "tmp_tt_id_2"
     },
     "7aaqCxpOLW4Yc7pB0oqr35zkUMM=": {
       "animate_background_colors": null,
@@ -10676,255 +10365,6 @@
       "color": "#FFF",
       "name": "line-point",
       "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "LzUxztYfzJiedr8/JrxryEC/pC4=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": " ",
-      "color": null,
-      "name": "Rock",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": "tmp_tt_id_1"
-    },
-    "mW0t0oPbz57Nlma4c7sdsxrM6Xc=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "G",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "3oP1TVniUa0C2ygxoP4omzuYSkQ=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": " ",
-      "color": null,
-      "name": "Rock",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": "tmp_tt_id_1"
-    },
-    "JnoLsVhDanEQGGoGrvJdAD7YiSw=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "╚",
-      "color": null,
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "b1+KDvQdnOiDAq542A7mhsXkjVU=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "╨",
-      "color": null,
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "SpmIAeDpLRXrcs6ok4j+N+N2NUw=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#CCC",
-      "character": "╞",
-      "color": "#000",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "TFLMsO7gfbKZjRyfkc7jqRcmTdw=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "╝",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "44bkOHsTN7QIqYEFgDkWlkXnBkg=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#CCC",
-      "character": "║",
-      "color": "#000",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "+TmIq6SeOY7FQeI6qQFGe10xQ3o=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#CCC",
-      "character": "t",
-      "color": "#000",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "nYSD+DaXRE31S7SrjmW2/ZhF4Ck=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "a",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "YDaKhQb9m+DpBxAEbi4rY7B6U+Q=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "e",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "v+wZUAQXmFediSB4hHBanaE7Sfk=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": false,
-      "background_color": "#831",
-      "character": ".",
-      "color": "#000",
-      "name": "Fertile Soil",
-      "script": "",
-      "state": {
-        "blocking": false,
-        "soil": true
-      },
-      "tile_template_id": "tmp_tt_id_4"
-    },
-    "fbDzY0KVAN5bP6UgYljZxaq3wVk=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "♥",
-      "color": "#271",
-      "name": "Grocer",
-      "script": "#END\n:TOUCH\nWelcome to the grocer.\nI see you have ${ ?sender@wheat } wheat.\n\n!SELL_WHEAT;Sell 1 Wheat for $1\n!BUY_WHEAT_SEED;Buy 5 Wheat Seed for $3\n!DONE;Leave\n#END\n:SELL_WHEAT\n#TAKE wheat, 1, ?sender, NO_SALE\n#GIVE cash, 1, ?sender\n#END\n:BUY_WHEAT_SEED\n#TAKE cash, 3, ?sender, TOO_POOR\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#END\n:NO_SALE\nYou can't sell what you don't have\n#END\n:TOO_POOR\nInsufficient funds\n#END\n:DONE",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "haP3eeST+Y4ADaeX7VwwERfjXGw=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#CCC",
-      "character": "╔",
-      "color": "#000",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "iFpj7AnFv+74pZguEQzeBJIOMu8=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "╞",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "sOzPXtTPxRSqStsvheY+m8m9Iks=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "♣",
-      "color": "gray",
-      "name": "Smith",
-      "script": "#END\n:TOUCH\nThe smith can make and repair\nyour farm equipment. Come back when\nyou have money or equipment to repair.",
       "state": {
         "blocking": true
       },
@@ -10946,337 +10386,13 @@
       },
       "tile_template_id": "tmp_tt_id_1"
     },
-    "5EcSYWEF8COz/OgY3WeqEN/0YTY=": {
+    "qP0Nkitv7XURQbuYTtaEi+Z8G14=": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
       "background_color": "#000",
-      "character": "n",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "2VOxhz1BK2LsQ6XDtOdzj711WYU=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": " ",
-      "color": "#6A6",
-      "name": "Rock",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": "tmp_tt_id_1"
-    },
-    "ne9IOF9VZDWr3zyGUjCZ94vn4Bk=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#CCC",
-      "character": "S",
-      "color": "#000",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "zlnyn/KFRFmW0OcmZ9gLWdbIafE=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "o",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "WYBriYU5L4fOciwuOKx5nMGStxg=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "╞",
-      "color": null,
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "zHy+wVwJqYrQTEOKWL11e/II3CM=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "╔",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "BnbzDtYsKw21iuVumIh8E3Eq5YI=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": false,
-      "background_color": null,
-      "character": "ϋ",
-      "color": "brown",
-      "name": "Bag of wheat seed",
-      "script": "#end\n:touch\n#if ! ?sender@player, done\nYou pick up the wheat seeds\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#die\n:done",
-      "state": {},
-      "tile_template_id": "tmp_tt_id_6"
-    },
-    "molUjcCaoJ2flTbFMaP4Fb4JM/M=": {
-      "animate_background_colors": null,
-      "animate_characters": "░, ▒, ░, ",
-      "animate_colors": null,
-      "animate_period": 5,
-      "animate_random": false,
-      "background_color": "blue",
-      "character": "░",
-      "color": "white",
-      "name": "Water",
-      "script": "",
-      "state": {
-        "blocking": true,
-        "low": true,
-        "soft": true
-      },
-      "tile_template_id": "tmp_tt_id_2"
-    },
-    "+zv35tGpR3UMSf2qkM0HdeWCJxw=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "B",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "tlyZL12GXtB8ytRrHw2PBTekiX4=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#831",
-      "character": ".",
-      "color": "#A54",
-      "name": "Floor",
-      "script": "",
-      "state": {
-        "blocking": false
-      },
-      "tile_template_id": "tmp_tt_id_0"
-    },
-    "1X3Rq6HmKO4tqoHFbWc2tY0Y9LU=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "═",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "WN5BEuvnsr26FFKNLMUCMaxvouc=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#CCC",
-      "character": "h",
-      "color": "#000",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "Q9XphK4U1oXeeAu0yFJ30HUh4hs=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "╗",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "YQsdHFMtGb7QWbzdqmcgXw1jrFk=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#FFF",
-      "character": ".",
-      "color": "#271",
-      "name": "Floor",
-      "script": "",
-      "state": {
-        "blocking": false
-      },
-      "tile_template_id": "tmp_tt_id_0"
-    },
-    "oRh4bhLnca48KLptN1kXZgu/mmQ=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "c",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "FlL17PIP2DHltoSQFw5RD8UMkqU=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#CCC",
-      "character": "╚",
-      "color": "#000",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "/j0Mj9/CNgutf3+4VMWD9larBEU=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "═",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "NaJT2fVRyIkc2SYrY4WT77uwO/s=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "╚",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "ZKTPLp01wdTms7rS9Q5OjKVrEIE=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "╞",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "RGZMbCPO6q5aM9Oert05QBtNut8=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#CCC",
-      "character": " ",
-      "color": "#CCC",
-      "name": "Rock",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": "tmp_tt_id_1"
-    },
-    "jVKKhjvxy4+y+cvIgoqdYelqAEY=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "╔",
-      "color": null,
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "OpapOBkQtrHOswMZ9cHv0rt6aPg=": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
       "character": "╡",
       "color": "#FFF",
       "name": "line-point",
@@ -11302,34 +10418,100 @@
       },
       "tile_template_id": null
     },
-    "FYQCNWT1WLpede2jWoNyBcNT310=": {
+    "mrqOX/xndlOZ6AX7tE+yj0xlLyY=": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
-      "background_color": null,
-      "character": "ǂ",
-      "color": "brown",
-      "name": "Sign",
-      "script": "#END\n:touch\n|\n|  To ${ ?sender@name }'s Farm\nV",
+      "background_color": "#000",
+      "character": "║",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
       "state": {
         "blocking": true
       },
       "tile_template_id": null
     },
-    "r7hj+YccfnUB0dxW2b+BIWlMxH0=": {
+    "FlL17PIP2DHltoSQFw5RD8UMkqU=": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
       "background_color": "#CCC",
-      "character": "m",
+      "character": "╚",
       "color": "#000",
-      "name": null,
+      "name": "line-point",
       "script": "",
-      "state": {},
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "JnoLsVhDanEQGGoGrvJdAD7YiSw=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "╚",
+      "color": null,
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "ZKTPLp01wdTms7rS9Q5OjKVrEIE=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "╞",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "Fr0vXw30tFtHJ65cuvvaKAujbJk=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "green",
+      "character": "≡",
+      "color": "black",
+      "name": "Passage",
+      "script": "#PASSAGE @background_color\n#END\n:TOUCH\n#TRANSPORT ?sender, @to_level, @background_color\n",
+      "state": {
+        "to_level": 2
+      },
+      "tile_template_id": null
+    },
+    "jVKKhjvxy4+y+cvIgoqdYelqAEY=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "╔",
+      "color": null,
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
       "tile_template_id": null
     },
     "ctK9rK2dCghCqmJvl2PXEHwCdmg=": {
@@ -11348,15 +10530,450 @@
       },
       "tile_template_id": null
     },
-    "AFytM4DfvGeX26iY6qiL1I4dfS0=": {
+    "1X3Rq6HmKO4tqoHFbWc2tY0Y9LU=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": "═",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "5EcSYWEF8COz/OgY3WeqEN/0YTY=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": "n",
+      "color": "#FFF",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "hlgSTbyacFPC0O3ujJiG7MqJB1A=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#FFF",
+      "character": " ",
+      "color": null,
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
+    },
+    "WN5BEuvnsr26FFKNLMUCMaxvouc=": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
       "background_color": "#CCC",
-      "character": "╝",
+      "character": "h",
       "color": "#000",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "/j0Mj9/CNgutf3+4VMWD9larBEU=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "═",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "3oP1TVniUa0C2ygxoP4omzuYSkQ=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": " ",
+      "color": null,
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
+    },
+    "FYQCNWT1WLpede2jWoNyBcNT310=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "ǂ",
+      "color": "brown",
+      "name": "Sign",
+      "script": "#END\n:touch\n|\n|  To ${ ?sender@name }'s Farm\nV",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "TFLMsO7gfbKZjRyfkc7jqRcmTdw=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "╝",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "fbDzY0KVAN5bP6UgYljZxaq3wVk=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "♥",
+      "color": "#271",
+      "name": "Grocer",
+      "script": "#END\n:TOUCH\nWelcome to the grocer.\nI see you have ${ ?sender@wheat } wheat.\n\n!SELL_WHEAT;Sell 1 Wheat for $1\n!BUY_WHEAT_SEED;Buy 5 Wheat Seed for $3\n!DONE;Leave\n#END\n:SELL_WHEAT\n#TAKE wheat, 1, ?sender, NO_SALE\n#GIVE cash, 1, ?sender\n#END\n:BUY_WHEAT_SEED\n#TAKE cash, 3, ?sender, TOO_POOR\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#END\n:NO_SALE\nYou can't sell what you don't have\n#END\n:TOO_POOR\nInsufficient funds\n#END\n:DONE",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "tlyZL12GXtB8ytRrHw2PBTekiX4=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#831",
+      "character": ".",
+      "color": "#A54",
+      "name": "Floor",
+      "script": "",
+      "state": {
+        "blocking": false
+      },
+      "tile_template_id": "tmp_tt_id_0"
+    },
+    "nYSD+DaXRE31S7SrjmW2/ZhF4Ck=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": "a",
+      "color": "#FFF",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "ne9IOF9VZDWr3zyGUjCZ94vn4Bk=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "S",
+      "color": "#000",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "zHy+wVwJqYrQTEOKWL11e/II3CM=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "╔",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "NMCuqKYAqWtSSWfyD9FyB+MwO+E=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "╚",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "+QJfspqfgd7vjeS7jZJorjRfZIg=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#00F",
+      "character": " ",
+      "color": "#A00",
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
+    },
+    "ljAM+yKH6FeCvk3AKcMniQ3mx9I=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": ".",
+      "color": "#271",
+      "name": "Floor",
+      "script": "",
+      "state": {
+        "blocking": false
+      },
+      "tile_template_id": "tmp_tt_id_0"
+    },
+    "r7hj+YccfnUB0dxW2b+BIWlMxH0=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "m",
+      "color": "#000",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "6MCBhzb44OoAtcYMXyoeFNDCpjc=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "╗",
+      "color": "#000",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "QGWU2IjDUkq7elskj7ipTDImyZY=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": "k",
+      "color": "#FFF",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "TrKckmbwqnabXT0viX02bd0VFtk=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#A00",
+      "character": " ",
+      "color": "#A00",
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
+    },
+    "6LnVt2UO96zzn66c3f+c/0NnaFw=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "╡",
+      "color": "#000",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "LBKn539kKpSTsvb6JO8e6AETFUI=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "green",
+      "character": "≡",
+      "color": "black",
+      "name": "Passage",
+      "script": "#PASSAGE @background_color\n#END\n:TOUCH\n#TRANSPORT ?sender, @to_level, @background_color\n",
+      "state": {
+        "blocking": true,
+        "to_level": 3
+      },
+      "tile_template_id": null
+    },
+    "677yBsEtYKz4bw+HXVn7ZPK4yUg=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "╨",
+      "color": "#271",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "+zv35tGpR3UMSf2qkM0HdeWCJxw=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": "B",
+      "color": "#FFF",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "YQsdHFMtGb7QWbzdqmcgXw1jrFk=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#FFF",
+      "character": ".",
+      "color": "#271",
+      "name": "Floor",
+      "script": "",
+      "state": {
+        "blocking": false
+      },
+      "tile_template_id": "tmp_tt_id_0"
+    },
+    "Tcw1akB2xm1lN9Wcfm+FrHOQ1zA=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "╝",
+      "color": null,
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "071sJ4au3fJfbLhTDnBlU4Goty4=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": ".",
+      "color": "#FFC",
+      "name": "Floor",
+      "script": "",
+      "state": {
+        "blocking": false
+      },
+      "tile_template_id": "tmp_tt_id_0"
+    },
+    "6VpI01P+k58XcKMroS5c5PxHAUU=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "═",
+      "color": "#000",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "fSLFFITuuBTOBM0xrFZ1tt6C0Y8=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "║",
+      "color": "#FFF",
       "name": "line-point",
       "script": "",
       "state": {
@@ -11380,14 +10997,62 @@
       },
       "tile_template_id": null
     },
-    "6LnVt2UO96zzn66c3f+c/0NnaFw=": {
+    "LzUxztYfzJiedr8/JrxryEC/pC4=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": " ",
+      "color": null,
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
+    },
+    "WYBriYU5L4fOciwuOKx5nMGStxg=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "╞",
+      "color": null,
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "n4BRgQ5x1XaR7ebF58uQOQUvV4E=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#FFF",
+      "character": "╬",
+      "color": "#000",
+      "name": "Floor",
+      "script": "#end\n:touch\nThe gates to town are closed.\nMaybe they will be opened later.",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "SpmIAeDpLRXrcs6ok4j+N+N2NUw=": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
       "background_color": "#CCC",
-      "character": "╡",
+      "character": "╞",
       "color": "#000",
       "name": "line-point",
       "script": "",
@@ -11396,20 +11061,355 @@
       },
       "tile_template_id": null
     },
-    "NMCuqKYAqWtSSWfyD9FyB+MwO+E=": {
+    "AFytM4DfvGeX26iY6qiL1I4dfS0=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "╝",
+      "color": "#000",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "YDaKhQb9m+DpBxAEbi4rY7B6U+Q=": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
       "background_color": "#6A6",
-      "character": "╚",
+      "character": "e",
+      "color": "#FFF",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "BaESYUOB088Yn3KPrIxyglVf9Ks=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "║",
+      "color": null,
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "oRh4bhLnca48KLptN1kXZgu/mmQ=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "c",
+      "color": "#FFF",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "44bkOHsTN7QIqYEFgDkWlkXnBkg=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "║",
+      "color": "#000",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "b1+KDvQdnOiDAq542A7mhsXkjVU=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "╨",
+      "color": null,
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "iFpj7AnFv+74pZguEQzeBJIOMu8=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": "╞",
       "color": "#FFF",
       "name": "line-point",
       "script": "",
       "state": {
         "blocking": true
       },
+      "tile_template_id": null
+    },
+    "Q9XphK4U1oXeeAu0yFJ30HUh4hs=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "╗",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "mW0t0oPbz57Nlma4c7sdsxrM6Xc=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "G",
+      "color": "#FFF",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "v+wZUAQXmFediSB4hHBanaE7Sfk=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": false,
+      "background_color": "#831",
+      "character": ".",
+      "color": "#000",
+      "name": "Fertile Soil",
+      "script": "",
+      "state": {
+        "blocking": false,
+        "soil": true
+      },
+      "tile_template_id": "tmp_tt_id_4"
+    },
+    "53oPgkCYZ2lGJOZEZoMuu5DASuc=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "i",
+      "color": "#000",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "sOzPXtTPxRSqStsvheY+m8m9Iks=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "♣",
+      "color": "gray",
+      "name": "Smith",
+      "script": "#END\n:TOUCH\nThe smith can make and repair\nyour farm equipment. Come back when\nyou have money or equipment to repair.",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "XhZzVP7e1YL5yc+syT6xsp4lNTc=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": false,
+      "background_color": null,
+      "character": "ɹ",
+      "color": "darkgray",
+      "name": "sicle",
+      "script": "#end\n:touch\n#if ! ?sender@player, done\nYou pick up the sicle\n#equip tmp_item_id_2, ?sender\n#die\n:done",
+      "state": {},
+      "tile_template_id": "tmp_tt_id_7"
+    },
+    "zlnyn/KFRFmW0OcmZ9gLWdbIafE=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "o",
+      "color": "#FFF",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "AvfGVwl2Lq7XwEu+rZM1ypyCHPs=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": "╔",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "2VOxhz1BK2LsQ6XDtOdzj711WYU=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": " ",
+      "color": "#6A6",
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
+    },
+    "BnbzDtYsKw21iuVumIh8E3Eq5YI=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": false,
+      "background_color": null,
+      "character": "ϋ",
+      "color": "brown",
+      "name": "Bag of wheat seed",
+      "script": "#end\n:touch\n#if ! ?sender@player, done\nYou pick up the wheat seeds\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#die\n:done",
+      "state": {},
+      "tile_template_id": "tmp_tt_id_6"
+    },
+    "BGGohOpjMZj3JGVmDOD90tdPBIo=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "╡",
+      "color": null,
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "RGZMbCPO6q5aM9Oert05QBtNut8=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": " ",
+      "color": "#CCC",
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
+    },
+    "bk76hJNb7Xn8cLd5a1Enj2UdlNY=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "╗",
+      "color": null,
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "OpapOBkQtrHOswMZ9cHv0rt6aPg=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "╡",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "+TmIq6SeOY7FQeI6qQFGe10xQ3o=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "t",
+      "color": "#000",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "HvYQ+bO0ALzHFFQ6YcnhvApKsVc=": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "r",
+      "color": "#FFF",
+      "name": null,
+      "script": "",
+      "state": {},
       "tile_template_id": null
     }
   }

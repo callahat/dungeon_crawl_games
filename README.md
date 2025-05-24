@@ -25,6 +25,15 @@ a == b
 # => true # if they are equivalent
 ```
 
+To lint a new export (this preserves the original file, and creates a new file with `_linted` added to the base)
+
+```
+iex -S mix
+# in elixir
+c "a_linter.exs"
+ALinter.lint!(<filename>)
+```
+
 ### Mainline_export.json
 
 The main first game that uses all (or nearly all) of the supported features. Including
