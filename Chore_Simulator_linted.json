@@ -18020,235 +18020,34 @@
     }
   },
   "tiles": {
-    ".": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#831",
-      "character": " ",
-      "color": "#AAA",
-      "name": "Rock",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": "tmp_tt_id_1"
-    },
-    "1": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": false,
-      "background_color": null,
-      "character": "ɹ",
-      "color": "darkgray",
-      "name": "sicle",
-      "script": "#end\n:touch\n#if ! ?sender@player, done\nYou pick up the sicle\n#equip tmp_item_id_2, ?sender\n#die\n:done",
-      "state": {},
-      "tile_template_id": "tmp_tt_id_8"
-    },
-    "a": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "a",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "I": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#A88",
-      "character": "╥",
-      "color": "#A00",
-      "name": "Rock",
-      "script": "#end\n:touch\nNobody's home",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "16": {
+    "!": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
       "background_color": "#FFF",
-      "character": " ",
-      "color": null,
-      "name": "Rock",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": "tmp_tt_id_1"
-    },
-    "V": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#CCC",
-      "character": "h",
+      "character": "╬",
       "color": "#000",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "O": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "║",
-      "color": null,
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "7": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "║",
-      "color": "#000",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "o": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": false,
-      "background_color": null,
-      "character": "ϋ",
-      "color": "brown",
-      "name": "Bag of wheat seed",
-      "script": "#end\n:touch\n#if ! ?sender@player, done\nYou pick up the wheat seeds\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#die\n:done",
-      "state": {},
-      "tile_template_id": "tmp_tt_id_7"
-    },
-    "&": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": ".",
-      "color": null,
       "name": "Floor",
-      "script": "",
+      "script": "#end\n:touch\nThe gates to town are closed.\nMaybe they will be opened later.",
       "state": {
-        "blocking": false
+        "blocking": true
       },
-      "tile_template_id": "tmp_tt_id_0"
-    },
-    "s": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#CCC",
-      "character": "t",
-      "color": "#000",
-      "name": null,
-      "script": "",
-      "state": {},
       "tile_template_id": null
     },
-    "4": {
+    "#": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
       "background_color": "#6A6",
-      "character": "║",
+      "character": "e",
       "color": "#FFF",
-      "name": "line-point",
+      "name": null,
       "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "X": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "╚",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "14": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "green",
-      "character": "≡",
-      "color": "black",
-      "name": "Passage",
-      "script": "#PASSAGE @background_color\n#END\n:TOUCH\n#TRANSPORT ?sender, @to_level, @background_color\n",
-      "state": {
-        "blocking": true,
-        "to_level": 3
-      },
-      "tile_template_id": null
-    },
-    "E": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "╞",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
+      "state": {},
       "tile_template_id": null
     },
     "$": {
@@ -18268,15 +18067,15 @@
       },
       "tile_template_id": null
     },
-    "~": {
+    "%": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
-      "background_color": "#000",
-      "character": "═",
-      "color": "#FFF",
+      "background_color": null,
+      "character": "╥",
+      "color": "#000",
       "name": "line-point",
       "script": "",
       "state": {
@@ -18284,23 +18083,37 @@
       },
       "tile_template_id": null
     },
-    "j": {
+    "&": {
       "animate_background_colors": null,
-      "animate_characters": "░, ▒, ░, ",
+      "animate_characters": null,
       "animate_colors": null,
-      "animate_period": 5,
-      "animate_random": false,
-      "background_color": "blue",
-      "character": "░",
-      "color": "white",
-      "name": "Water",
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": ".",
+      "color": null,
+      "name": "Floor",
       "script": "",
       "state": {
-        "blocking": true,
-        "low": true,
-        "soft": true
+        "blocking": false
       },
-      "tile_template_id": "tmp_tt_id_3"
+      "tile_template_id": "tmp_tt_id_0"
+    },
+    "(": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "╡",
+      "color": "#271",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
     },
     ")": {
       "animate_background_colors": null,
@@ -18316,125 +18129,16 @@
       "state": {},
       "tile_template_id": null
     },
-    "U": {
+    "*": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
       "background_color": null,
-      "character": "╞",
-      "color": "#271",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "m": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": false,
-      "background_color": null,
-      "character": "π",
-      "color": "brown",
-      "name": "Stump",
-      "script": "#end\n:touch\nThis stump seems like it still has some useful wood\n#end\n:chop\nchoppin wood\n#random wood, 1-3\n#give wood, @wood, ?sender\nYou managed to havest ${ @wood } wood\n#zap touch\n#zap chop\n#become character: ., blocking: false, choppable: false\n#send respawn, self, 60\n#end\n:respawn\n#restore touch\n#restore chop\n#become character: π, blocking: true, choppable: true\n#end",
-      "state": {
-        "blocking": true,
-        "choppable": true
-      },
-      "tile_template_id": "tmp_tt_id_12"
-    },
-    "b": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#CCC",
       "character": "╗",
-      "color": "#000",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "u": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "═",
       "color": null,
       "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "{": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "k",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "^": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "♦",
-      "color": "black",
-      "name": "Banker",
-      "script": "#END\n:TOUCH\nThe banker is out to lunch,\ncome back later",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "13": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "G",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "15": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#FF0",
-      "character": "/",
-      "color": null,
-      "name": "Rock",
       "script": "",
       "state": {
         "blocking": true
@@ -18457,15 +18161,31 @@
       },
       "tile_template_id": "tmp_tt_id_1"
     },
-    "w": {
+    ",": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
-      "background_color": "#CCC",
+      "background_color": null,
+      "character": "ǂ",
+      "color": "brown",
+      "name": "Sign",
+      "script": "#END\n:touch\n|\n|  To ${ ?sender@name }'s Farm\nV",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    ".": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#831",
       "character": " ",
-      "color": "#CCC",
+      "color": "#AAA",
       "name": "Rock",
       "script": "",
       "state": {
@@ -18473,62 +18193,90 @@
       },
       "tile_template_id": "tmp_tt_id_1"
     },
-    "]": {
+    "/": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
-      "background_color": "#6A6",
-      "character": "╚",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "A": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "tan",
-      "character": "≡",
-      "color": "gray",
-      "name": "Floor",
-      "script": "#end\n:touch\nNobody's home",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "}": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": ".",
-      "color": "#271",
+      "background_color": "#831",
+      "character": "=",
+      "color": "#A54",
       "name": "Floor",
       "script": "",
       "state": {
         "blocking": false
       },
-      "tile_template_id": "tmp_tt_id_0"
+      "tile_template_id": null
     },
-    "%": {
+    "0": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#00F",
+      "character": " ",
+      "color": "#A00",
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
+    },
+    "1": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": false,
+      "background_color": null,
+      "character": "ɹ",
+      "color": "darkgray",
+      "name": "sicle",
+      "script": "#end\n:touch\n#if ! ?sender@player, done\nYou pick up the sicle\n#equip tmp_item_id_2, ?sender\n#die\n:done",
+      "state": {},
+      "tile_template_id": "tmp_tt_id_8"
+    },
+    "10": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": false,
+      "background_color": "brown",
+      "character": "ϋ",
+      "color": "gold",
+      "name": "Bag of Corn Seed",
+      "script": "#end\n:touch\n#if ! ?sender@player, done\nYou pick up the corn seeds\n#equip tmp_item_id_3, ?sender\n#equip tmp_item_id_3, ?sender\n#equip tmp_item_id_3, ?sender\n#equip tmp_item_id_3, ?sender\n#equip tmp_item_id_3, ?sender\n#die\n:done",
+      "state": {},
+      "tile_template_id": "tmp_tt_id_10"
+    },
+    "11": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
       "background_color": null,
-      "character": "╥",
+      "character": "♥",
+      "color": "#271",
+      "name": "Grocer",
+      "script": "#END\n:TOUCH\n@wc = 0\n@wc += ?sender@wheat\n@cc = 0\n@cc += ?sender@corn\n\nWelcome to the grocer.\nI see you have ${ @wc } wheat.\nI see you have ${ @cc } corn.\n\n!SELL_ALL_WHEAT;Sell ${ @wc } Wheat for $${ @wc }\n!SELL_ALL_CORN;Sell ${ @cc } Corn for $${ @cc }\n!BUY_WHEAT_SEED;Buy 5 Wheat Seed for $3\n!BUY_CORN_SEED;Buy 3 Corn Seed for $2\n!DONE;Leave\n#END\n:SELL_ALL_WHEAT\n@count = ?sender@wheat\n#TAKE wheat, @count, ?sender, NO_SALE\n#GIVE cash, @count, ?sender\n#END\n:SELL_ALL_CORN\n@count = ?sender@corn\n#TAKE corn, @count, ?sender, NO_SALE\n#GIVE cash, @count, ?sender\n#END\n:BUY_WHEAT_SEED\n#TAKE cash, 3, ?sender, TOO_POOR\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#END\n:BUY_CORN_SEED\n#TAKE cash, 2, ?sender, TOO_POOR\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#END\n:NO_SALE\nYou can't sell what you don't have\n#END\n:TOO_POOR\nInsufficient funds\n#END\n:DONE",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "12": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "╨",
       "color": "#000",
       "name": "line-point",
       "script": "",
@@ -18537,23 +18285,21 @@
       },
       "tile_template_id": null
     },
-    "M": {
+    "13": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
-      "background_color": "#831",
-      "character": ".",
-      "color": "#A54",
-      "name": "Floor",
+      "background_color": "#6A6",
+      "character": "G",
+      "color": "#FFF",
+      "name": null,
       "script": "",
-      "state": {
-        "blocking": false
-      },
-      "tile_template_id": "tmp_tt_id_0"
+      "state": {},
+      "tile_template_id": null
     },
-    "8": {
+    "14": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
@@ -18565,9 +18311,42 @@
       "name": "Passage",
       "script": "#PASSAGE @background_color\n#END\n:TOUCH\n#TRANSPORT ?sender, @to_level, @background_color\n",
       "state": {
-        "to_level": 2
+        "blocking": true,
+        "to_level": 3
       },
       "tile_template_id": null
+    },
+    "15": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#FF0",
+      "character": "/",
+      "color": null,
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "16": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#FFF",
+      "character": " ",
+      "color": null,
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
     },
     "2": {
       "animate_background_colors": null,
@@ -18585,206 +18364,52 @@
       },
       "tile_template_id": null
     },
-    "Z": {
+    "3": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
-      "background_color": "#CCC",
+      "background_color": null,
+      "character": "╨",
+      "color": "#271",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "4": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "║",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "5": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
       "character": "═",
-      "color": "#000",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "*": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "╗",
-      "color": null,
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "x": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "╝",
       "color": "#FFF",
       "name": "line-point",
       "script": "",
       "state": {
         "blocking": true
       },
-      "tile_template_id": null
-    },
-    "f": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "╥",
-      "color": "#271",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "T": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#A88",
-      "character": " ",
-      "color": "#A00",
-      "name": "Rock",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": "tmp_tt_id_1"
-    },
-    "Y": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#CCC",
-      "character": "m",
-      "color": "#000",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    ",": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "ǂ",
-      "color": "brown",
-      "name": "Sign",
-      "script": "#END\n:touch\n|\n|  To ${ ?sender@name }'s Farm\nV",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "n": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "n",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "h": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "╗",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "[": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#271",
-      "character": " ",
-      "color": "#271",
-      "name": "Rock",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": "tmp_tt_id_1"
-    },
-    "i": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "╞",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "S": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "╡",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "y": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "r",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
       "tile_template_id": null
     },
     "6": {
@@ -18803,6 +18428,38 @@
       },
       "tile_template_id": "tmp_tt_id_0"
     },
+    "7": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "║",
+      "color": "#000",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "8": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "green",
+      "character": "≡",
+      "color": "black",
+      "name": "Passage",
+      "script": "#PASSAGE @background_color\n#END\n:TOUCH\n#TRANSPORT ?sender, @to_level, @background_color\n",
+      "state": {
+        "to_level": 2
+      },
+      "tile_template_id": null
+    },
     "9": {
       "animate_background_colors": null,
       "animate_characters": null,
@@ -18819,51 +18476,23 @@
       },
       "tile_template_id": null
     },
-    "g": {
+    "<": {
       "animate_background_colors": null,
-      "animate_characters": null,
+      "animate_characters": "░, ▒, ░, ",
       "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "║",
-      "color": "#FFF",
-      "name": "line-point",
+      "animate_period": 5,
+      "animate_random": false,
+      "background_color": "blue",
+      "character": "░",
+      "color": "white",
+      "name": "Water",
       "script": "",
       "state": {
-        "blocking": true
+        "blocking": true,
+        "low": true,
+        "soft": true
       },
-      "tile_template_id": null
-    },
-    "#": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "e",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "D": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#0F0",
-      "character": " ",
-      "color": "#BFB",
-      "name": "Rock",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": "tmp_tt_id_1"
+      "tile_template_id": "tmp_tt_id_2"
     },
     ">": {
       "animate_background_colors": null,
@@ -18897,79 +18526,17 @@
       },
       "tile_template_id": null
     },
-    "F": {
+    "A": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
-      "background_color": "#CCC",
-      "character": "╞",
-      "color": "#000",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "p": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "B",
-      "color": "#FFF",
-      "name": null,
-      "script": "",
-      "state": {},
-      "tile_template_id": null
-    },
-    "!": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#FFF",
-      "character": "╬",
-      "color": "#000",
+      "background_color": "tan",
+      "character": "≡",
+      "color": "gray",
       "name": "Floor",
-      "script": "#end\n:touch\nThe gates to town are closed.\nMaybe they will be opened later.",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "v": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": " ",
-      "color": null,
-      "name": "Rock",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": "tmp_tt_id_1"
-    },
-    "l": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#000",
-      "character": "╝",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
+      "script": "#end\n:touch\nNobody's home",
       "state": {
         "blocking": true
       },
@@ -18991,28 +18558,14 @@
       },
       "tile_template_id": "tmp_tt_id_1"
     },
-    "10": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": false,
-      "background_color": "brown",
-      "character": "ϋ",
-      "color": "gold",
-      "name": "Bag of Corn Seed",
-      "script": "#end\n:touch\n#if ! ?sender@player, done\nYou pick up the corn seeds\n#equip tmp_item_id_3, ?sender\n#equip tmp_item_id_3, ?sender\n#equip tmp_item_id_3, ?sender\n#equip tmp_item_id_3, ?sender\n#equip tmp_item_id_3, ?sender\n#die\n:done",
-      "state": {},
-      "tile_template_id": "tmp_tt_id_10"
-    },
-    "q": {
+    "C": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
       "background_color": "#000",
-      "character": "╔",
+      "character": "╗",
       "color": "#FFF",
       "name": "line-point",
       "script": "",
@@ -19021,14 +18574,304 @@
       },
       "tile_template_id": null
     },
-    "r": {
+    "D": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#0F0",
+      "character": " ",
+      "color": "#BFB",
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
+    },
+    "E": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": "╞",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "F": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
       "background_color": "#CCC",
-      "character": "i",
+      "character": "╞",
+      "color": "#000",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "G": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#FFF",
+      "character": ".",
+      "color": "#271",
+      "name": "Floor",
+      "script": "",
+      "state": {
+        "blocking": false
+      },
+      "tile_template_id": "tmp_tt_id_0"
+    },
+    "H": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "╔",
+      "color": "#000",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "I": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#A88",
+      "character": "╥",
+      "color": "#A00",
+      "name": "Rock",
+      "script": "#end\n:touch\nNobody's home",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "J": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "║",
+      "color": "#000",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "K": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "brown",
+      "character": " ",
+      "color": null,
+      "name": "Counter",
+      "script": "#end\n:touch\nThis looks like a good place\nto put something.",
+      "state": {
+        "blocking": true,
+        "countertop": true
+      },
+      "tile_template_id": null
+    },
+    "L": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": " ",
+      "color": "#000",
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
+    },
+    "M": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#831",
+      "character": ".",
+      "color": "#A54",
+      "name": "Floor",
+      "script": "",
+      "state": {
+        "blocking": false
+      },
+      "tile_template_id": "tmp_tt_id_0"
+    },
+    "N": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": false,
+      "background_color": "#831",
+      "character": ".",
+      "color": "#000",
+      "name": "Fertile Soil",
+      "script": "",
+      "state": {
+        "blocking": false,
+        "soil": true
+      },
+      "tile_template_id": "tmp_tt_id_5"
+    },
+    "O": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "║",
+      "color": null,
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "P": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "╚",
+      "color": "#000",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "Q": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "♣",
+      "color": "gray",
+      "name": "Smith",
+      "script": "#end\n:touch\n#if ?sender@bought_breadmaker, has_breadmaker\nWould you like to buy this breadmaker for $20?\n\n!buy_breadmaker; Yes\n!no; No\n#end\n:buy_breadmaker\n#take cash, 20, ?sender, too_poor\n#equip tmp_item_id_5, ?sender\n?sender@bought_breadmaker = true\n#end\n:has_breadmaker\nNothing new for you today.\nMaybe next time.\n#end\n:too_poor\nYou can't afford it!\nCome back when you have more cash.\n:no",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "R": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "╔",
+      "color": null,
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "S": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "╡",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "T": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#A88",
+      "character": " ",
+      "color": "#A00",
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
+    },
+    "U": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "╞",
+      "color": "#271",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "V": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "h",
       "color": "#000",
       "name": null,
       "script": "",
@@ -19049,14 +18892,44 @@
       "state": {},
       "tile_template_id": null
     },
-    "12": {
+    "X": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
-      "background_color": null,
-      "character": "╨",
+      "background_color": "#000",
+      "character": "╚",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "Y": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "m",
+      "color": "#000",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "Z": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "═",
       "color": "#000",
       "name": "line-point",
       "script": "",
@@ -19065,21 +18938,115 @@
       },
       "tile_template_id": null
     },
-    "(": {
+    "[": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
-      "background_color": null,
-      "character": "╡",
+      "background_color": "#271",
+      "character": " ",
       "color": "#271",
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
+    },
+    "]": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "╚",
+      "color": "#FFF",
       "name": "line-point",
       "script": "",
       "state": {
         "blocking": true
       },
       "tile_template_id": null
+    },
+    "^": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "♦",
+      "color": "black",
+      "name": "Banker",
+      "script": "#END\n:TOUCH\nThe banker is out to lunch,\ncome back later",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "_": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "╨",
+      "color": null,
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "a": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": "a",
+      "color": "#FFF",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "b": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": "╗",
+      "color": "#000",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "c": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": " ",
+      "color": null,
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
     },
     "d": {
       "animate_background_colors": null,
@@ -19111,15 +19078,15 @@
       },
       "tile_template_id": null
     },
-    "J": {
+    "f": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
-      "background_color": "#CCC",
-      "character": "║",
-      "color": "#000",
+      "background_color": null,
+      "character": "╥",
+      "color": "#271",
       "name": "line-point",
       "script": "",
       "state": {
@@ -19127,21 +19094,71 @@
       },
       "tile_template_id": null
     },
-    "L": {
+    "g": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
       "background_color": "#000",
-      "character": " ",
-      "color": "#000",
-      "name": "Rock",
+      "character": "║",
+      "color": "#FFF",
+      "name": "line-point",
       "script": "",
       "state": {
         "blocking": true
       },
-      "tile_template_id": "tmp_tt_id_1"
+      "tile_template_id": null
+    },
+    "h": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "╗",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "i": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "╞",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "j": {
+      "animate_background_colors": null,
+      "animate_characters": "░, ▒, ░, ",
+      "animate_colors": null,
+      "animate_period": 5,
+      "animate_random": false,
+      "background_color": "blue",
+      "character": "░",
+      "color": "white",
+      "name": "Water",
+      "script": "",
+      "state": {
+        "blocking": true,
+        "low": true,
+        "soft": true
+      },
+      "tile_template_id": "tmp_tt_id_3"
     },
     "k": {
       "animate_background_colors": null,
@@ -19159,85 +19176,123 @@
       },
       "tile_template_id": null
     },
-    "K": {
+    "l": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
-      "background_color": "brown",
-      "character": " ",
-      "color": null,
-      "name": "Counter",
-      "script": "#end\n:touch\nThis looks like a good place\nto put something.",
+      "background_color": "#000",
+      "character": "╝",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
       "state": {
-        "blocking": true,
-        "countertop": true
+        "blocking": true
       },
       "tile_template_id": null
     },
-    "P": {
+    "m": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": false,
+      "background_color": null,
+      "character": "π",
+      "color": "brown",
+      "name": "Stump",
+      "script": "#end\n:touch\nThis stump seems like it still has some useful wood\n#end\n:chop\nchoppin wood\n#random wood, 1-3\n#give wood, @wood, ?sender\nYou managed to havest ${ @wood } wood\n#zap touch\n#zap chop\n#become character: ., blocking: false, choppable: false\n#send respawn, self, 60\n#end\n:respawn\n#restore touch\n#restore chop\n#become character: π, blocking: true, choppable: true\n#end",
+      "state": {
+        "blocking": true,
+        "choppable": true
+      },
+      "tile_template_id": "tmp_tt_id_12"
+    },
+    "n": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": "n",
+      "color": "#FFF",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "o": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": false,
+      "background_color": null,
+      "character": "ϋ",
+      "color": "brown",
+      "name": "Bag of wheat seed",
+      "script": "#end\n:touch\n#if ! ?sender@player, done\nYou pick up the wheat seeds\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#equip tmp_item_id_1, ?sender\n#die\n:done",
+      "state": {},
+      "tile_template_id": "tmp_tt_id_7"
+    },
+    "p": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": "B",
+      "color": "#FFF",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "q": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": "╔",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "r": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
       "background_color": "#CCC",
-      "character": "╚",
+      "character": "i",
       "color": "#000",
-      "name": "line-point",
+      "name": null,
       "script": "",
-      "state": {
-        "blocking": true
-      },
+      "state": {},
       "tile_template_id": null
     },
-    "z": {
+    "s": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
-      "background_color": null,
-      "character": "═",
-      "color": "#271",
-      "name": "line-point",
+      "background_color": "#CCC",
+      "character": "t",
+      "color": "#000",
+      "name": null,
       "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "11": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "♥",
-      "color": "#271",
-      "name": "Grocer",
-      "script": "#END\n:TOUCH\n@wc = 0\n@wc += ?sender@wheat\n@cc = 0\n@cc += ?sender@corn\n\nWelcome to the grocer.\nI see you have ${ @wc } wheat.\nI see you have ${ @cc } corn.\n\n!SELL_ALL_WHEAT;Sell ${ @wc } Wheat for $${ @wc }\n!SELL_ALL_CORN;Sell ${ @cc } Corn for $${ @cc }\n!BUY_WHEAT_SEED;Buy 5 Wheat Seed for $3\n!BUY_CORN_SEED;Buy 3 Corn Seed for $2\n!DONE;Leave\n#END\n:SELL_ALL_WHEAT\n@count = ?sender@wheat\n#TAKE wheat, @count, ?sender, NO_SALE\n#GIVE cash, @count, ?sender\n#END\n:SELL_ALL_CORN\n@count = ?sender@corn\n#TAKE corn, @count, ?sender, NO_SALE\n#GIVE cash, @count, ?sender\n#END\n:BUY_WHEAT_SEED\n#TAKE cash, 3, ?sender, TOO_POOR\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#END\n:BUY_CORN_SEED\n#TAKE cash, 2, ?sender, TOO_POOR\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#EQUIP tmp_item_id_1, ?sender\n#END\n:NO_SALE\nYou can't sell what you don't have\n#END\n:TOO_POOR\nInsufficient funds\n#END\n:DONE",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "3": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "╨",
-      "color": "#271",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
+      "state": {},
       "tile_template_id": null
     },
     "t": {
@@ -19256,13 +19311,121 @@
       },
       "tile_template_id": null
     },
-    "G": {
+    "u": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
-      "background_color": "#FFF",
+      "background_color": null,
+      "character": "═",
+      "color": null,
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "v": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": " ",
+      "color": null,
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
+    },
+    "w": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#CCC",
+      "character": " ",
+      "color": "#CCC",
+      "name": "Rock",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": "tmp_tt_id_1"
+    },
+    "x": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "╝",
+      "color": "#FFF",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "y": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#6A6",
+      "character": "r",
+      "color": "#FFF",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "z": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
+      "character": "═",
+      "color": "#271",
+      "name": "line-point",
+      "script": "",
+      "state": {
+        "blocking": true
+      },
+      "tile_template_id": null
+    },
+    "{": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": "#000",
+      "character": "k",
+      "color": "#FFF",
+      "name": null,
+      "script": "",
+      "state": {},
+      "tile_template_id": null
+    },
+    "}": {
+      "animate_background_colors": null,
+      "animate_characters": null,
+      "animate_colors": null,
+      "animate_period": null,
+      "animate_random": null,
+      "background_color": null,
       "character": ".",
       "color": "#271",
       "name": "Floor",
@@ -19272,180 +19435,17 @@
       },
       "tile_template_id": "tmp_tt_id_0"
     },
-    "5": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#6A6",
-      "character": "═",
-      "color": "#FFF",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "<": {
-      "animate_background_colors": null,
-      "animate_characters": "░, ▒, ░, ",
-      "animate_colors": null,
-      "animate_period": 5,
-      "animate_random": false,
-      "background_color": "blue",
-      "character": "░",
-      "color": "white",
-      "name": "Water",
-      "script": "",
-      "state": {
-        "blocking": true,
-        "low": true,
-        "soft": true
-      },
-      "tile_template_id": "tmp_tt_id_2"
-    },
-    "/": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#831",
-      "character": "=",
-      "color": "#A54",
-      "name": "Floor",
-      "script": "",
-      "state": {
-        "blocking": false
-      },
-      "tile_template_id": null
-    },
-    "H": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#CCC",
-      "character": "╔",
-      "color": "#000",
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "0": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": "#00F",
-      "character": " ",
-      "color": "#A00",
-      "name": "Rock",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": "tmp_tt_id_1"
-    },
-    "C": {
+    "~": {
       "animate_background_colors": null,
       "animate_characters": null,
       "animate_colors": null,
       "animate_period": null,
       "animate_random": null,
       "background_color": "#000",
-      "character": "╗",
+      "character": "═",
       "color": "#FFF",
       "name": "line-point",
       "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "c": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": " ",
-      "color": null,
-      "name": "Rock",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": "tmp_tt_id_1"
-    },
-    "N": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": false,
-      "background_color": "#831",
-      "character": ".",
-      "color": "#000",
-      "name": "Fertile Soil",
-      "script": "",
-      "state": {
-        "blocking": false,
-        "soil": true
-      },
-      "tile_template_id": "tmp_tt_id_5"
-    },
-    "_": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "╨",
-      "color": null,
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "R": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "╔",
-      "color": null,
-      "name": "line-point",
-      "script": "",
-      "state": {
-        "blocking": true
-      },
-      "tile_template_id": null
-    },
-    "Q": {
-      "animate_background_colors": null,
-      "animate_characters": null,
-      "animate_colors": null,
-      "animate_period": null,
-      "animate_random": null,
-      "background_color": null,
-      "character": "♣",
-      "color": "gray",
-      "name": "Smith",
-      "script": "#end\n:touch\n#if ?sender@bought_breadmaker, has_breadmaker\nWould you like to buy this breadmaker for $20?\n\n!buy_breadmaker; Yes\n!no; No\n#end\n:buy_breadmaker\n#take cash, 20, ?sender, too_poor\n#equip tmp_item_id_5, ?sender\n?sender@bought_breadmaker = true\n#end\n:has_breadmaker\nNothing new for you today.\nMaybe next time.\n#end\n:too_poor\nYou can't afford it!\nCome back when you have more cash.\n:no",
       "state": {
         "blocking": true
       },

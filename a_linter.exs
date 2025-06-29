@@ -3,7 +3,7 @@ defmodule ALinter do
   def lint!(filename) do
     {basename, ext} = String.split_at(filename, -5)
     linted_filename = "#{ basename }_linted#{ ext }"
-    pretty_encoded = Jason.decode!(File.read!(filename)) |> Jason.encode!(pretty: true)
+    pretty_encoded = Jason.decode!(File.read!(filename)) |> StableJason.encode!(pretty: true)
     File.write!(linted_filename, pretty_encoded)
 
     a = JSON.decode(File.read!(filename))
