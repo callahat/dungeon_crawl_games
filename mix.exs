@@ -21,7 +21,7 @@ defmodule DungeonCrawlGames.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:stable_jason, "~> 1.0"},
+      {:stable_jason, git: "https://github.com/callahat/stable_jason.git", ref: "3f725433f3b87905122239c54c229b4c0127ce40"},
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]
