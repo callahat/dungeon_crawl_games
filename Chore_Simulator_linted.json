@@ -1,10 +1,10 @@
 {
   "log": [],
   "_meta": {
-    "date": "2025-06-29 00:11:49 UTC",
+    "date": "2025-06-30 00:52:01 UTC",
     "host": "dcrawl.callahat.net",
-    "dungeon_active": null,
-    "dungeon_version": null,
+    "dungeon_active": true,
+    "dungeon_version": 3,
     "exporter_version": "3.0.0",
     "dungeon_crawl_version": "0.0.2"
   },
